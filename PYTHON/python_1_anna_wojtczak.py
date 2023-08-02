@@ -23,7 +23,7 @@ dni = list(data.keys()) #lista dni
 wskazania = list(data.values()) #lista wskazań
 
 # funkcja przeliczająca wskazania czujnika na temperaturę, zwraca wynik z dokładnością 
-# do 3 miejsca po przecinku (zgodnie z tabelą przeliczania) pkt.3 i pkt.4
+# do 3 miejsca po przecinku (zgodnie z tabelą przeliczania)
 def przelicz(w):
     if w >= 1400:
         return round(int(w)/22.5,3)
