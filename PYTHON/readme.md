@@ -1,4 +1,4 @@
-  ## Python task
+  ## Python tasks
   
 1. script will generate a report based on simple data from a specific day at the user's request,
 2. a function that takes an integer (greater than 0) as input and prints a "pyramid" of stars with as many floors as the given integer,
